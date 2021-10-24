@@ -1,0 +1,21 @@
+/* styles.css */
+
+/* Add styles here to customize the appearance of your app */
+*.webview{
+    width: 100%;
+    height: 90%;
+}
+
+@font-face {
+    font-family: "courier-prime";
+    src: url("./images/Courier\ Prime.ttf");
+}
+
+.monofont{
+    font-family: "courier-prime";
+}
+
+.has-bg-potabi{
+    background-image: url("./images/XMLID_1_-7.png");
+    background-size: cover;
+}

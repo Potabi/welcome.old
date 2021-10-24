@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+        <link href="./styles.css" rel="stylesheet">
+        <title>Welcome to Potabi</title>
+        <link href="node_modules/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+        <link href="node_modules/bulma/css/bulma.min.css" rel="stylesheet">
+        <link href="font-awesome/css/all.min.css" rel="stylesheet">
+    </head>
+    <body class="overflow-hidden w-screen h-screen has-bg-potabi">
+        <div class="w-full h-full columns has-text-centered is-vcentered">
+            <div class="column px-5">
+                <ul>
+                    <li class="py-2">
+                        <a href="wiki.potabi.com.html" class="button is-info w-full">Wiki</a>
+                    </li>
+                    <li class="py-2">
+                        <a href="potabi.com.html" class="button is-info w-full">Website</a>
+                    </li>
+                    <li class="py-2">
+                        <a href="coming-soon.html" class="button is-info w-full">Installation guide</a>
+                    </li>
+                    <li class="py-2">
+                        <a href="coming-soon.html" class="button is-info w-full">Why use Potabi?</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h1 class="title">Welcome to Potabi</h1>
+                <img class="w-full" src="./images/potabi-logo-ol.png">
+            </div>
+            <div class="column px-5">
+                <ul>
+                    <li class="py-2">
+                        <a href="patreon.html" class="button is-info w-full">Patreon</a>
+                    </li>
+                    <li class="py-2">
+                        <a href="discord.com.html" class="button is-info w-full">Discord</a>
+                    </li>
+                    <li class="py-2">
+                        <a href="github.com.html" class="button is-info w-full">GitHub</a>
+                    </li>
+                    <li class="py-2">
+                        <a href="twitter.com.html" class="button is-info w-full">Twitter </a>
+                    </li>
+                    <li class="py-2">
+                        <a href="coming-soon.html" class="button is-info w-full">Store </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+
+        <!-- You can also require other files to run in this process -->
+        <script src="./renderer.js"></script>
+    </body>
+</html>

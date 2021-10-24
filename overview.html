@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Quick overview of Potabi</title>
+    <link href="node_modules/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link href="node_modules/bulma/css/bulma.min.css" rel="stylesheet">
+  </head>
+  <body class="overflow-hidden w-screen h-screen bg-black">
+    <div class="navbar">
+        <div class="navbar-start">
+            <div class="buttons">
+                <a class="button is-info ml-5" href="index.html">Go back</a>
+            </div>
+        </div>
+    </div>
+    <video controls autoplay class="w-screen webview">
+        <source src="./images/Potabi Systems.mp4" type="video/mp4">
+    </video>
+    
+    
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
